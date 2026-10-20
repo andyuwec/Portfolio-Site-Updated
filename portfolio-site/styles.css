@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #E6E6E6;
     background: #404E3B;
@@ -22,4 +22,88 @@ body {
     border-width: 1px;
     border-style: solid;
     border-color: #6c8480;
+}
+
+header{
+    background-color:#404E3B;
+    color: #E6E6E6;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    font-size: 1.5rem;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style-position: inside;
+}
+
+ul li{
+    list-style-type: disc;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #404E3B;
+    color: #E6E6E6;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.profile-img{
+    max-width: 200px;
+    display: block;
+    margin: 1rem auto;
+    justify-self: left;
+    border-radius: 5px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    gap: 1rem;
+}
+
+.project img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.project h3{
+    margin: 0.5rem;
+}
+
+footer{
+    background-color: #152410;
+    color: #E6E6E6;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+footer a{
+    color: #E6E6E6;
+    text-decoration: none;
+}
+
+/*link styles | personal addition*/
+a {
+    color: #6c8480;
+    text-decoration-line: none;
+}
+.active{
+    color: #bac8b1;
+    background-color: #152410;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.navigation .inactive {
+    color: #152410;
+    background-color: beige;
+    padding: 1rem;
+    border-radius: 4px;
 }
