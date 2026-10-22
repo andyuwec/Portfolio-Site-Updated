@@ -273,3 +273,6 @@ nav a:hover{
 #experience h3{
     font-size: 3.2rem;
 }
+#experience strong{
+    font-size: 2rem;
+}
